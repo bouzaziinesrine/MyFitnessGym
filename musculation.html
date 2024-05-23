@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoga Information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            text-align: center;
+            padding: 150px;
+            background-image: url('musculation.jpg');
+            background-size: cover;
+            background-position: center;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            display: flex;
+            align-items: center;
+            max-width: 900px;
+            backdrop-filter: blur(5px); /* Blur effect */
+        }
+
+        .content {
+            background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+            padding: 20px;
+            border-radius: 10px;
+            flex: 1; /* Take remaining space */
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            color: #666;
+            line-height: 1.6;
+        }
+        .back-button {
+            margin-top: 20px;
+            background-color: rgb(235,119,6);
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .back-button:hover {
+            background-color: #000000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>Yoga Information</h1>
+            <p>Strength training, also known as resistance training or weightlifting, is a form of exercise that involves using resistance to induce muscular contraction, which builds strength, anaerobic endurance, and the size of skeletal muscles. This type of exercise can be performed using various methods, including free weights (such as dumbbells and barbells), weight machines, resistance bands, or even bodyweight exercises like push-ups and squats.</p>
+            <p>Strength training is beneficial for people of all ages and fitness levels. It not only helps to increase muscle mass and bone density but also improves overall physical function, balance, and coordination. Additionally, strength training has been shown to have numerous health benefits, including reducing the risk of chronic diseases like heart disease, diabetes, and osteoporosis.</p>
+            <p>When engaging in strength training, it's important to use proper form and technique to prevent injury and maximize effectiveness. Beginners should start with lighter weights and gradually increase the resistance as they become stronger and more experienced. Consistency is key, and incorporating strength training into a well-rounded fitness routine can lead to significant improvements in overall health and fitness over time.</p>
+            <button class="back-button" onclick="goBack()">Back</button>
+        </div>
+    </div>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+</html>
